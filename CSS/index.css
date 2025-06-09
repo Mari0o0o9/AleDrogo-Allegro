@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    width: 20%;
+    text-align: center;
+}
+header nav { 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+header nav form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+header nav form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+header nav form button {
+    position: relative;
+    left: -45px;
+    padding: 10px 0;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+header #cart {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10%;
+}
+header #cart a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+header #account {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+}
+header #account a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+
+
+
+section {
+    margin-top: 10vh;
+    padding: 20px;
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    color: black;
+    font-size: 1em;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin: 0 10px;
+}

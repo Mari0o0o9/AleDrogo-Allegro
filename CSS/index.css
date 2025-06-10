@@ -56,13 +56,35 @@ header nav form button {
     font-size: 1em;
     cursor: pointer;
 }
-header nav ul {
+header nav .NavUl {
+    position: relative;
+    top: 5px;
+    width: 100%;
     list-style: none;
     padding: 0;
     margin: 10px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     width: 100%;
+}
+header nav .NavUl li {
+    display: none;
+    flex-direction: column;
+}
+header nav .NavUl:hover li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 7px;
+}
+header nav .NavUl li ul {
+    margin: 0;
+    padding: 0;
+}
+header nav .NavUl li ul li {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
 }
 header #cart {
     height: 100%;

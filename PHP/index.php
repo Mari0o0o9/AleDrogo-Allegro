@@ -19,10 +19,16 @@
                 <input type="text" name="query" placeholder="Search..." required>
                 <button type="submit" class="material-symbols-outlined">search</button>
             </form>
-            <ul> Kategorie
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="NavUl"> Kategorie
+                <li>AGD
+                    <ul>
+                        <li>dupa1</li>
+                        <li>dupa2</li>
+                        <li>dupa3</li>
+                    </ul>
+                </li>
+                <li>dupa2</li>
+                <li>dupa3</li>
             </ul>
         </nav>
         <div id="cart">
@@ -46,7 +52,7 @@
                 <span class="price">$19.99</span>
                 <button>Add to Cart</button>
             </div>
-            <!-- More products can be added here -->
+            <!-- More products can be added here -->         
         </div>
 
     </section>

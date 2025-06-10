@@ -19,16 +19,16 @@
                 <input type="text" name="query" placeholder="Search..." required>
                 <button type="submit" class="material-symbols-outlined">search</button>
             </form>
-            <ul class="NavUl"> Kategorie
-                <li>AGD
+            <ul id="categoryList"> Kategorie
+                <li class="categoryItems">AGD
                     <ul>
-                        <li>dupa1</li>
+                        <li><a href="dasd">asdasd</a></li>
                         <li>dupa2</li>
                         <li>dupa3</li>
                     </ul>
                 </li>
-                <li>dupa2</li>
-                <li>dupa3</li>
+                <li class="categoryItems">dupa2</li>
+                <li class="categoryItems">dupa3</li>
             </ul>
         </nav>
         <div id="cart">
@@ -64,5 +64,6 @@
             <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
     </footer>
+    <script src="../JS/category.js"></script>
 </body>
 </html>

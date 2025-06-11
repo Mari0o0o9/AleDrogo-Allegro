@@ -19,17 +19,44 @@
                 <input type="text" name="query" placeholder="Search..." required>
                 <button type="submit" class="material-symbols-outlined">search</button>
             </form>
-            <ul id="categoryList"> Kategorie
-                <li class="categoryItems">AGD
-                    <ul>
-                        <li><a href="dasd">asdasd</a></li>
-                        <li>dupa2</li>
-                        <li>dupa3</li>
-                    </ul>
-                </li>
-                <li class="categoryItems">dupa2</li>
-                <li class="categoryItems">dupa3</li>
-            </ul>
+            <div>
+                <h3 id="buttonCategory">Categories</h3>
+                <div class="category">
+                    <h5>AGD</h5>
+                    <div class="categoryItems">123</div>
+                    <div class="categoryItems">213</div>
+                    <div class="categoryItems">3434</div>
+                    <div class="categoryItems">4545</div>
+                    <div class="categoryItems">54545</div>
+                </div>
+                <div class="category">
+                    <h5>213213</h5>
+                </div>
+                <div class="category">
+                    <h5>2132</h5>
+                </div>
+                <div class="category">
+                    <h5>213213</h5>
+                </div>
+                <div class="category">
+                    <h5>213213</h5>
+                </div>
+                <div class="category">
+                    <h5>213213</h5>
+                </div>
+                <div class="category">
+                    <h5>213213</h5>
+                </div>
+                <div class="category">
+                    <h5>213213</h5>
+                </div>
+                <div class="category">
+                    <h5>213213</h5>
+                </div>
+                <div class="category">
+                    <h5>213213</h5>
+                </div>
+            </div>
         </nav>
         <div id="cart">
             <a href="">Cart</a>

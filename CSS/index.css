@@ -18,6 +18,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+    color: white;
 }
 header h1 {
     height: 100%;
@@ -56,32 +58,45 @@ header nav form button {
     font-size: 1em;
     cursor: pointer;
 }
-header nav #categoryList {
+header nav div h3 {
+    max-height: fit-content;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+header nav div  {
     position: relative;
-    top: 5px;
-    width: 100%;
+    top: 1px;
     list-style: none;
     padding: 0;
     margin: 10px 0;
     display: flex;
     justify-content: left;
-    width: 100%;
+    flex-wrap: wrap;
+    width: 93%;
+    background-color: yellow;
 }
-header nav #categoryList .categoryItems {
+header nav div .category {
     display: none;
+    max-width: fit-content;
+    max-height: fit-content;
+    border: solid 1px white;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 7px;
+    margin: 3px 7px;
 }
-header nav #categoryList li ul {
+header nav div .category h5 {
     margin: 0;
     padding: 0;
 }
-header nav #categoryList li ul li {
-    display: block;
-    margin: 5px 0;
-    padding: 5px;
+header nav div .category .categoryItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 0;
+    margin: 2px 0;
 }
 header #cart {
     height: 100%;
@@ -92,7 +107,7 @@ header #cart {
 }
 header #cart a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.2em;
     margin: 5px 0;
 }
@@ -105,7 +120,7 @@ header #account {
 }
 header #account a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.2em;
     margin: 5px 0;
 }

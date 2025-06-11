@@ -1,5 +1,5 @@
-var categories  = document.getElementById("categoryList");
-var categoryItems = document.querySelectorAll(".categoryItems");
+var categories  = document.getElementById("buttonCategory");
+var categoryItems = document.querySelectorAll(".category");
 
 categories.addEventListener("click", () => {
     categoryItems.forEach((item) => {

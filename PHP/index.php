@@ -1,5 +1,5 @@
 <?php
-// index.php
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,41 +21,43 @@
             </form>
             <div>
                 <h3 id="buttonCategory">Categories</h3>
-                <div class="category">
-                    <h5>AGD</h5>
-                    <div class="categoryItems">123</div>
-                    <div class="categoryItems">213</div>
-                    <div class="categoryItems">3434</div>
-                    <div class="categoryItems">4545</div>
-                    <div class="categoryItems">54545</div>
-                </div>
-                <div class="category">
-                    <h5>213213</h5>
-                </div>
-                <div class="category">
-                    <h5>2132</h5>
-                </div>
-                <div class="category">
-                    <h5>213213</h5>
-                </div>
-                <div class="category">
-                    <h5>213213</h5>
-                </div>
-                <div class="category">
-                    <h5>213213</h5>
-                </div>
-                <div class="category">
-                    <h5>213213</h5>
-                </div>
-                <div class="category">
-                    <h5>213213</h5>
-                </div>
-                <div class="category">
-                    <h5>213213</h5>
-                </div>
-                <div class="category">
-                    <h5>213213</h5>
-                </div>
+                <div id="categoryList">
+                    <div class="category">
+                        <h5>AGD</h5>
+                        <div class="categoryItems">123</div>
+                        <div class="categoryItems">213</div>
+                        <div class="categoryItems">3434</div>
+                        <div class="categoryItems">4545</div>
+                        <div class="categoryItems">54545</div>
+                    </div>
+                    <div class="category">
+                        <h5>213213</h5>
+                    </div>
+                    <div class="category">
+                        <h5>2132</h5>
+                    </div>
+                    <div class="category">
+                        <h5>213213</h5>
+                    </div>
+                    <div class="category">
+                        <h5>213213</h5>
+                    </div>
+                    <div class="category">
+                        <h5>213213</h5>
+                    </div>
+                    <div class="category">
+                        <h5>213213</h5>
+                    </div>
+                    <div class="category">
+                        <h5>213213</h5>
+                    </div>
+                    <div class="category">
+                        <h5>213213</h5>
+                    </div>
+                    <div class="category">
+                        <h5>213213</h5>
+                    </div>
+                </div> 
             </div>
         </nav>
         <div id="cart">
@@ -64,7 +66,7 @@
         </div>
         <div id="account">
             <a href="">Login in</a>
-            <a href="">Sing in</a>
+            <a href="./register.php">Sing in</a>
             <!-- do napisania if user is logged in -->
         </div>
     </header>

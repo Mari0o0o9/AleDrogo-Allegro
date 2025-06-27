@@ -38,6 +38,8 @@ function Regiaster() {
                         $_SESSION['secondName'] = $secondName;
                         $_SESSION['email'] = $email;
                         $_SESSION['phoneNumber'] = $phoneNumber;
+                    } else {
+                        echo "Błąd: ". $conn -> error;
                     }
                 } else {
                     echo "Hasła nie są takie same";
